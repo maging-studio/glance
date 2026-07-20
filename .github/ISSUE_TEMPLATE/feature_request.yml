@@ -1,0 +1,34 @@
+name: Feature request
+description: Something you want Glance to do
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like Glance to do?
+      description: >
+        Describe it in terms of what you're trying to get done with a document,
+        not how you think it should be built.
+      placeholder: I want to search across every open document at once, not just the front one.
+    validations:
+      required: true
+
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle it today?
+      description: What you currently do instead, and where that falls down.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of Glance?
+      options:
+        - Rendering (math, diagrams, tables, code)
+        - Quick Look previews
+        - Editing
+        - Print and PDF export
+        - File handling and formats
+        - Something else
+    validations:
+      required: true

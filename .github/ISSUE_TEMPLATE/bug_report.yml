@@ -1,0 +1,51 @@
+name: Bug report
+description: Something in Glance doesn't work the way it should
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you do, and what did Glance do instead?
+      placeholder: I pressed Space on a .md file in Finder and the preview stayed blank.
+    validations:
+      required: true
+
+  - type: textarea
+    id: document
+    attributes:
+      label: The document, if it matters
+      description: >
+        If a specific file triggers it, paste the smallest snippet that
+        reproduces the problem. A single table or formula is usually enough.
+      render: markdown
+
+  - type: input
+    id: version
+    attributes:
+      label: Glance version
+      description: Glance → About Glance, or the version on the DMG you installed.
+      placeholder: "0.2.0"
+    validations:
+      required: true
+
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description: "Apple menu → About This Mac. Include the chip: Apple Silicon or Intel."
+      placeholder: "macOS 15.2, Apple Silicon"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did it happen?
+      options:
+        - In the Glance app window
+        - In a Finder Quick Look preview (Space)
+        - Both
+        - Somewhere else
+    validations:
+      required: true

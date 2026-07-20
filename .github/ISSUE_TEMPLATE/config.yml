@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Licensing or purchase question
+    url: https://glance.md/buy
+    about: Questions about the Pro license, the trial, or a receipt.
+  - name: What changed in the latest version
+    url: https://glance.md/changelog
+    about: Release notes for every version of Glance.
