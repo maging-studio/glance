@@ -25,8 +25,7 @@ or from [glance.md](https://glance.md), open it, and drag Glance to Applications
 The build is signed with a Developer ID and notarized by Apple, so it opens
 without a Gatekeeper warning. Updates arrive over the air.
 
-**Requirements:** macOS 14 (Sonoma) or later. One universal binary for Apple
-Silicon and Intel.
+**Requirements:** macOS 14 (Sonoma) or later, on an Apple Silicon Mac.
 
 ## What it does
 
@@ -59,8 +58,8 @@ lines, table rows and diagrams never get sliced in half.
 Reading is free forever, with no account to create. Editing is a one-time
 **$9.99** license with a **14-day trial**, no card needed.
 
-Click any block in the rendered page and type. There is no separate edit mode
-and no source pane — you are formatting the document you are reading.
+Click any block in the rendered page and type. There is no separate edit mode —
+you are formatting the document you are reading.
 
 <img src="docs/inline-formatting.webp" alt="Formatting toolbar above a text selection" width="620">
 
@@ -68,6 +67,9 @@ and no source pane — you are formatting the document you are reading.
 - **Tables** — edit cells in place, insert and delete columns
 - **Diagrams** — tweak the Mermaid source over the diagram, ⌘↩ to re-render
 - **Callouts, task lists, code blocks** — all editable in place
+- **Markdown source** — ⌘\ opens it beside the page. The two panes scroll
+  together, your cursor and selection show up in both, and typing in one
+  updates the other
 
 <p>
 <img src="docs/table-edit.webp" alt="Editing a Markdown table in place" width="405">
